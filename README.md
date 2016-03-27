@@ -1,1 +1,1 @@
-# yhsnake
+# yhsnake```$ npm i$ ./node_modules/.bin/webpack-dev-server```
