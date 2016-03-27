@@ -3,7 +3,7 @@ var webpack = require('webpack')
 
 module.exports = {
   entry: [
-    './index.jsx'
+    './index.js'
   ],
   output: {
     path: path.resolve(__dirname, 'public'),
@@ -12,7 +12,7 @@ module.exports = {
   },
   module: {
     loaders: [{
-      test: /\.jsx?$/,
+      test: /\.js?$/,
       exclude: /node_modules/,
       loader: 'babel-loader',
       query: {
