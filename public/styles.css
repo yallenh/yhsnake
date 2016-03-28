@@ -1,0 +1,16 @@
+.rows {
+  height: 10px;
+}
+.cols {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: black;
+  border: 1px solid #333;
+}
+.cols.snake {
+  background-color: red;
+}
+.cols.candy {
+  background-color: yellow;
+}
